@@ -6,10 +6,8 @@ for i in range(num):
     com = sys.stdin.readline().split()
     if com[0] == 'push':
         temp.append(com[-1])
-        # print(temp)
     elif com[0] == 'pop':
         if len(temp) == 0:
-            # print('temp',temp)
             print('-1')
         else :
             print(temp.pop())
